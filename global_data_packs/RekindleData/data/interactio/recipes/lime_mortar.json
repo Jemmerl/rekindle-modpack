@@ -1,0 +1,35 @@
+{
+  "type": "interactio:item_fluid_transform",
+  "inputs": [
+    {
+      "item": "rekindlemod:impure_calcium_oxide",
+      "count": 3,
+      "return_chance": 0
+    },
+    {
+      "item": "rekindlemod:fire_ash",
+      "count": 2,
+      "return_chance": 0
+    },
+    {
+      "tag": "minecraft:sand",
+      "count": 1
+    }
+  ],
+  "fluid": {
+    "fluid": "water"
+  },
+  "output": {
+    "entries": [
+      {
+        "result": {
+          "item": "rekindlemod:lime_mortar",
+          "count": 8
+        },
+        "weight": 100
+      }
+    ],
+    "empty_weight": 0,
+    "rolls": 1
+  }
+}
