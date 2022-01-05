@@ -1,0 +1,160 @@
+
+[entities]
+
+	[entities.hidebehind]
+
+		[entities.hidebehind.spawning]
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:birch_forest", "minecraft:dark_forest_hills", "minecraft:giant_spruce_taiga", "minecraft:snowy_taiga_hills", "minecraft:taiga", "minecraft:wooded_hills", "minecraft:forest", "minecraft:giant_spruce_taiga_hills", "minecraft:birch_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:dark_forest", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:jungle_edge", "minecraft:snowy_taiga_mountains", "minecraft:snowy_taiga"]
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Enables biome based variant selection. This will make this entity choose variants tailored to the biome they spawn in (Only applies to natural spawns)
+			biome_based_variants = true
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 3
+
+			[entities.hidebehind.spawning.spawn_costs]
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.hirschgeist]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+
+		[entities.hirschgeist.spawning]
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:birch_forest", "minecraft:dark_forest_hills", "minecraft:giant_spruce_taiga", "minecraft:snowy_taiga_hills", "minecraft:taiga", "minecraft:wooded_hills", "minecraft:forest", "minecraft:giant_spruce_taiga_hills", "minecraft:birch_forest_hills", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:dark_forest", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:jungle_edge", "minecraft:snowy_taiga_mountains", "minecraft:snowy_taiga"]
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = false
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 2
+
+			[entities.hirschgeist.spawning.spawn_costs]
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.moth]
+		#How many moths required to destroy a torch - Disabled if set to 0
+		#Range: > 0
+		moths_to_destroy_torch = 5
+
+		[entities.moth.spawning]
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:swamp_hills", "minecraft:birch_forest", "minecraft:dark_forest_hills", "minecraft:giant_spruce_taiga", "minecraft:snowy_taiga_hills", "minecraft:taiga", "minecraft:wooded_hills", "minecraft:forest", "minecraft:giant_spruce_taiga_hills", "minecraft:birch_forest_hills", "minecraft:swamp", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:dark_forest", "minecraft:giant_tree_taiga", "minecraft:giant_tree_taiga_hills", "minecraft:jungle_edge", "minecraft:snowy_taiga_mountains", "minecraft:snowy_taiga"]
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 10
+
+			[entities.moth.spawning.spawn_costs]
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.zotzpyre]
+
+		[entities.zotzpyre.spawning]
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:modified_jungle_edge", "minecraft:jungle_hills", "minecraft:swamp_hills", "minecraft:dark_forest_hills", "minecraft:giant_spruce_taiga", "minecraft:taiga", "minecraft:modified_badlands_plateau", "minecraft:modified_wooded_badlands_plateau", "minecraft:wooded_hills", "minecraft:shattered_savanna_plateau", "minecraft:forest", "minecraft:ice_spikes", "minecraft:birch_forest_hills", "minecraft:swamp", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:dark_forest", "minecraft:giant_tree_taiga_hills", "minecraft:jungle", "minecraft:jungle_edge", "minecraft:modified_jungle", "minecraft:shattered_savanna", "minecraft:stone_shore", "minecraft:snowy_taiga_mountains", "minecraft:snowy_tundra", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:beach", "minecraft:birch_forest", "minecraft:bamboo_jungle_hills", "minecraft:gravelly_mountains", "minecraft:snowy_taiga_hills", "minecraft:modified_gravelly_mountains", "minecraft:giant_spruce_taiga_hills", "minecraft:snowy_mountains", "minecraft:mountains", "minecraft:desert_hills", "minecraft:mushroom_field_shore", "minecraft:giant_tree_taiga", "minecraft:eroded_badlands", "minecraft:bamboo_jungle", "minecraft:snowy_beach", "minecraft:snowy_taiga", "minecraft:mountain_edge"]
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 1
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = false
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 30
+
+			[entities.zotzpyre.spawning.spawn_costs]
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
+	[entities.wisp]
+		#Allows the entity to despawn freely when no players are nearby, like vanilla monsters do
+		can_despawn = true
+		#Chance of wisp being hostile (soul stealer). Chance is a percentage out of 100. 0 is never, 100 is always
+		#Range: 0.0 ~ 100.0
+		hostile_chance = 25
+
+		[entities.wisp.spawning]
+			#Enter biome IDs. Supports modded biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+			spawn_biomes = ["minecraft:wooded_mountains", "minecraft:taiga_mountains", "minecraft:swamp_hills", "minecraft:dark_forest_hills", "minecraft:giant_spruce_taiga", "minecraft:taiga", "minecraft:wooded_hills", "minecraft:forest", "minecraft:crimson_forest", "minecraft:birch_forest_hills", "minecraft:swamp", "minecraft:taiga_hills", "minecraft:tall_birch_forest", "minecraft:dark_forest", "minecraft:giant_tree_taiga_hills", "minecraft:jungle_edge", "minecraft:snowy_taiga_mountains", "minecraft:warped_forest", "minecraft:flower_forest", "minecraft:tall_birch_hills", "minecraft:birch_forest", "minecraft:snowy_taiga_hills", "minecraft:giant_spruce_taiga_hills", "minecraft:giant_tree_taiga", "minecraft:snowy_taiga"]
+			#Minimum amount of entities in spawned groups
+			#Range: 1 ~ 9999
+			minimum_group_size = 1
+			#Maximum amount of entities in spawned groups - Must be greater or equal to min value
+			#Range: 1 ~ 9999
+			maximum_group_size = 3
+			#Enables natural spawning - More info on these options: https://minecraft.fandom.com/wiki/Spawn#Java_Edition
+			spawn_naturally = true
+			#The spawn weight compared to other entities (typically between 6-20)
+			#Range: 1 ~ 9999
+			spawn_weight = 13
+
+			[entities.wisp.spawning.spawn_costs]
+				#Cost to spawning algorithm per entity spawned
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				cost_per_spawn = 1.0
+				#Whether to use spawn costs in spawning or not
+				use_spawn_costs = false
+				#Maximum cost the spawning algorithm can accrue for this entity
+				#Range: 4.9E-324 ~ 1.7976931348623157E308
+				maximum_cost_per_biome = 10.0
+				#Enter biome IDs to use these costs in. Supports modded biomes. An empty list will use spawn_biomes https://minecraft.fandom.com/wiki/Biome#Biome_IDs
+				spawn_cost_biomes = []
+
