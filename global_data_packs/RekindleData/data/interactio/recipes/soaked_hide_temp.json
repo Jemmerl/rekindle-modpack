@@ -2,7 +2,7 @@
   "type": "interactio:item_fluid_transform",
   "inputs": [
     {
-      "item": "rekindlemod:scraped_hide",
+      "item": "rekindleprimitive:scraped_hide",
       "count": 1,
       "return_chance": 0
     }
@@ -14,7 +14,7 @@
     "entries": [
       {
         "result": {
-          "item": "rekindlemod:soaked_hide",
+          "item": "rekindleprimitive:soaked_hide",
           "count": 1
         },
         "weight": 100
