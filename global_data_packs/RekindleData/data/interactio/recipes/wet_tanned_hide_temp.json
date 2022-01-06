@@ -2,12 +2,12 @@
   "type": "interactio:item_fluid_transform",
   "inputs": [
     {
-      "item": "rekindlemod:bark_strips",
+      "item": "rekindleprimitive:bark_strips",
       "count": 3,
       "return_chance": 0
     },
     {
-      "item": "rekindlemod:prepared_hide",
+      "item": "rekindleprimitive:prepared_hide",
       "count": 1,
       "return_chance": 0
     }
@@ -19,7 +19,7 @@
     "entries": [
       {
         "result": {
-          "item": "rekindlemod:wet_tanned_hide",
+          "item": "rekindleprimitive:wet_tanned_hide",
           "count": 1
         },
         "weight": 100
