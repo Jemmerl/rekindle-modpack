@@ -82,9 +82,9 @@ campfire.addRecipe("gold_cluster_campfire", <item:minecraft:gold_nugget>, <item:
 
 //////////////////////////////////////////////////////////////////////////////
 // Campfire recipes for lime mortar
-campfire.addRecipe("campfire_stick_ash", <item:rekindlemod:fire_ash>, <item:minecraft:stick>, 0.0, 100);
-campfire.addRecipe("campfire_shells_quicklime", <item:rekindlemod:impure_calcium_oxide>, <item:projectvibrantjourneys:seashells>, 0.0, 200);
-campfire.addRecipe("campfire_bones_quicklime", <item:rekindlemod:impure_calcium_oxide>, <item:natural-progression:bone_shard>, 0.0, 200);
+campfire.addRecipe("campfire_stick_ash", <item:rekindleprimitive:fire_ash>, <item:minecraft:stick>, 0.0, 100);
+campfire.addRecipe("campfire_shells_quicklime", <item:rekindleprimitive:impure_calcium_oxide>, <item:projectvibrantjourneys:seashells>, 0.0, 200);
+campfire.addRecipe("campfire_bones_quicklime", <item:rekindleprimitive:impure_calcium_oxide>, <item:natural-progression:bone_shard>, 0.0, 200);
 //////////////////////////////////////////////////////////////////////////////
 
 
@@ -97,5 +97,5 @@ campfire.removeByName("campfire_overhaul:bricks_from_campfire");
 // Campfires now only drop ash
 var campfireTags = <tag:blocks:minecraft:campfires>;
 for block in campfireTags.elements {
-	block.addLootModifier(block.registryName.path+"_ash_drop",CommonLootModifiers.clearing(CommonLootModifiers.addWithRandomAmount(<item:rekindlemod:fire_ash>,1,3)));
+	block.addLootModifier(block.registryName.path+"_ash_drop",CommonLootModifiers.clearing(CommonLootModifiers.addWithRandomAmount(<item:rekindleprimitive:fire_ash>,1,3)));
 }

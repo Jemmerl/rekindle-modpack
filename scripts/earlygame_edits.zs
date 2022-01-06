@@ -207,7 +207,7 @@ craftingTable.removeByName("natural-progression:crafting/bone_pickaxe");
 // Remove brick smelting recipes and add customs
 furnace.removeByName("minecraft:brick");
 <recipetype:ceramics:kiln>.removeByName("ceramics:brick_kiln");
-addKilnRecipe("brick", <item:minecraft:brick>, <item:rekindlemod:dry_unfired_brick>, 0.1, 400);
+addKilnRecipe("brick", <item:minecraft:brick>, <item:rekindleprimitive:dry_unfired_brick>, 0.1, 400);
 
 // Remove brick block recipes
 craftingTable.removeByName("minecraft:bricks");
@@ -265,7 +265,7 @@ for block in grassPlantTags.elements {
         LootConditionBuilder.create()
 			.add<MatchTool>(matches => {matches.matching(<item:natural-progression:bone_knife>);})
             .add<BlockStateProperty>(bsp => {bsp.withBlock(block);}),
-        CommonLootModifiers.clearing(CommonLootModifiers.add(<item:rekindlemod:straw_grass>))
+        CommonLootModifiers.clearing(CommonLootModifiers.add(<item:rekindleprimitive:straw_grass>))
     );
 }
 
