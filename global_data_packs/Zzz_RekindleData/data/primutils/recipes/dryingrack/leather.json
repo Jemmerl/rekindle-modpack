@@ -1,0 +1,10 @@
+{
+  "type": "primutils:drying",
+  "input": {
+    "item": "rekindleprimitive:wet_tanned_hide"
+  },
+  "duration": 72000,
+  "output": {
+    "item": "minecraft:leather"
+  }
+}

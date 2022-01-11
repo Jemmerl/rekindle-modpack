@@ -8,10 +8,10 @@
 	  "item": "minecraft:sugar"
 	},
 	{
-	  "tag": "forge:sand"
+	  "item": "minecraft:sand"
 	},
 	{
-	  "tag": "forge:sand"
+	  "item": "minecraft:sand"
 	}
   ],
   "stirAmounts": 8,
@@ -21,6 +21,18 @@
   },
   "output": [
     {
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
       "item": "rekindleprimitive:lime_mortar"
     },
 	{

@@ -1,0 +1,10 @@
+{
+  "type": "primutils:chopping",
+  "input": {
+    "tag": "minecraft:planks"
+  },
+  "chopAmounts": 5,
+  "output": {
+    "item": "minecraft:stick"
+  }
+}

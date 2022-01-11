@@ -5,13 +5,13 @@
       "item": "rekindleprimitive:impure_calcium_oxide"
     },
 	{
-	  "tag": "forge:sand"
+	  "item": "minecraft:sand"
 	},
 	{
-	  "tag": "forge:sand"
+	  "item": "minecraft:sand"
 	},
 	{
-	  "tag": "forge:sand"
+	  "item": "minecraft:sand"
 	}
   ],
   "stirAmounts": 10,
@@ -21,12 +21,6 @@
   },
   "output": [
     {
-      "item": "rekindleprimitive:lime_mortar"
-    },
-	{
-      "item": "rekindleprimitive:lime_mortar"
-    },
-	{
       "item": "rekindleprimitive:lime_mortar"
     },
 	{

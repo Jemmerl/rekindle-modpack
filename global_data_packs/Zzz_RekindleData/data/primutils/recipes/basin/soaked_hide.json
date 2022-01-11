@@ -3,16 +3,22 @@
   "inputs": [
     {
       "item": "rekindleprimitive:impure_calcium_oxide"
+    },
+    {
+      "item": "rekindleprimitive:impure_calcium_oxide"
+    },
+	{
+      "item": "rekindleprimitive:scraped_hide"
     }
   ],
-  "stirAmounts": 3,
+  "stirAmounts": 8,
   "input_fluid": {
     "tag": "minecraft:water",
-    "amount": 1000
+    "amount": 4000
   },
   "output": [
     {
-      "item": "minecraft:sugar"
+      "item": "rekindleprimitive:soaked_hide"
     },
     {
       "item": "minecraft:sugar"

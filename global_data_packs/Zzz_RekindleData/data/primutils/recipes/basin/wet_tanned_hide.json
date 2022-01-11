@@ -1,0 +1,27 @@
+{
+  "type": "primutils:stirring",
+  "inputs": [
+    {
+      "item": "rekindleprimitive:bark_strips"
+    },
+	{
+      "item": "rekindleprimitive:bark_strips"
+    },
+    {
+      "item": "rekindleprimitive:bark_strips"
+    },
+	{
+      "item": "rekindleprimitive:prepared_hide"
+    }
+  ],
+  "stirAmounts": 10,
+  "input_fluid": {
+    "tag": "minecraft:water",
+    "amount": 4000
+  },
+  "output": [
+    {
+      "item": "rekindleprimitive:wet_tanned_hide"
+    }
+  ]
+}
