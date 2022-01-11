@@ -1,0 +1,48 @@
+{
+  "type": "primutils:stirring",
+  "inputs": [
+    {
+      "item": "rekindleprimitive:impure_calcium_oxide"
+    },
+	{
+	  "tag": "forge:sand"
+	},
+	{
+	  "tag": "forge:sand"
+	},
+	{
+	  "tag": "forge:sand"
+	}
+  ],
+  "stirAmounts": 10,
+  "input_fluid": {
+    "tag": "minecraft:water",
+    "amount": 2000
+  },
+  "output": [
+    {
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    }
+  ]
+}

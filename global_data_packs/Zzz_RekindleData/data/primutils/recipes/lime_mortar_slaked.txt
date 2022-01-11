@@ -1,0 +1,36 @@
+{
+  "type": "primutils:stirring",
+  "inputs": [
+    {
+      "item": "minecraft:sugar"
+    },
+	{
+	  "item": "minecraft:sugar"
+	},
+	{
+	  "tag": "forge:sand"
+	},
+	{
+	  "tag": "forge:sand"
+	}
+  ],
+  "stirAmounts": 8,
+  "input_fluid": {
+    "tag": "minecraft:water",
+    "amount": 1000
+  },
+  "output": [
+    {
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    },
+	{
+      "item": "rekindleprimitive:lime_mortar"
+    }
+  ]
+}
