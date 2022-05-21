@@ -79,31 +79,6 @@ function addKilnRecipe(name as string, itemOut as IItemStack, itemIn as IItemSta
 
 // ############################### TAGS ###############################
 
-// Geolosys mineral sample tag
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:lignite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:bituminous_coal_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:anthracite_coal_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:coal_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:sphalerite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:cinnabar_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:gold_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:lapis_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:quartz_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:kimberlite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:beryl_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:nether_gold_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:ancient_debris_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:hematite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:limonite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:malachite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:azurite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:cassiterite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:teallite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:galena_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:bauxite_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:platinum_ore_sample>);
-<tag:blocks:crafttweaker:mineral_samples>.add(<block:geolosys:autunite_ore_sample>);
-
 // Grass-dropping plants tag
 <tag:blocks:crafttweaker:grass_plants>.add(<block:projectvibrantjourneys:beach_grass>);
 <tag:blocks:crafttweaker:grass_plants>.add(<block:minecraft:grass>);
@@ -290,22 +265,3 @@ CTEventManager.register<MCBlockBreakEvent>((event) => {
 	}
 });
 
-
-// Mineral samples drop conditions edited
-var geoSamplesTags = <tag:blocks:crafttweaker:mineral_samples>;
-print("test");
-for block in geoSamplesTags.elements {
-    loot.modifiers.register(
-        block.registryName.path+"_normdrop", 
-        LootConditionBuilder.create()
-            .add<Not>(not => {
-                not.withCondition<ToolType>(tt => {
-                    tt.withToolType(<tooltype:pickaxe>);
-                });
-            })
-            .add<BlockStateProperty>(bsp => {
-                bsp.withBlock(block);
-            }),
-        CommonLootModifiers.clearing(CommonLootModifiers.add(block.asItem()))
-    );
-}

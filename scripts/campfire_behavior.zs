@@ -70,16 +70,6 @@ import crafttweaker.api.FurnaceManager;
 craftingTable.removeByName("minecraft:campfire");
 
 
-// Campfire cluster to nugget recipes
-campfire.addRecipe("platinum_cluster_campfire", <item:geolosys:platinum_nugget>, <item:geolosys:platinum_cluster>, 0.0, 600);
-campfire.addRecipe("zinc_cluster_campfire", <item:geolosys:zinc_nugget>, <item:geolosys:zinc_cluster>, 0.0, 200);
-campfire.addRecipe("nickel_cluster_campfire", <item:geolosys:nickel_nugget>, <item:geolosys:nickel_cluster>, 0.0, 1200);
-campfire.addRecipe("lead_cluster_campfire", <item:geolosys:lead_nugget>, <item:geolosys:lead_cluster>, 0.0, 200);
-campfire.addRecipe("silver_cluster_campfire", <item:geolosys:silver_nugget>, <item:geolosys:silver_cluster>, 0.0, 600);
-campfire.addRecipe("tin_cluster_campfire", <item:geolosys:tin_nugget>, <item:geolosys:tin_cluster>, 0.0, 200);
-campfire.addRecipe("copper_cluster_campfire", <item:geolosys:copper_nugget>, <item:geolosys:copper_cluster>, 0.0, 600);
-campfire.addRecipe("gold_cluster_campfire", <item:minecraft:gold_nugget>, <item:geolosys:gold_cluster>, 0.0, 300);
-
 //////////////////////////////////////////////////////////////////////////////
 // Campfire recipes for lime mortar
 campfire.addRecipe("campfire_stick_ash", <item:rekindleprimitive:fire_ash>, <item:minecraft:stick>, 0.0, 100);

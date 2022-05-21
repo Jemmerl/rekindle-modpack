@@ -67,28 +67,28 @@
 
 	#Biome Settings
 	[Settings.Biomes]
-		red_rock_valley = true
-		alpine_heights = true
-		snowy_boreal_forest = true
-		crimson_thicket = true
-		pine_meadows = true
-		boreal_forest = true
-		aspen_grove = true
-		windswept_cliffs = true
-		prairie = true
-		autumnal_coniferous_forest = true
-		redwood_peaks = true
-		baobab_fields = true
-		overgrown_spires = true
-		desert_shrubland = true
-		redwoods = true
-		willow_wetlands = true
-		blossoming_fields = true
-		verdant_sands = true
-		mangrove_marsh = true
-		crystal_lakes = true
-		boreal_plateau = true
-		snowy_redwoods = true
+		red_rock_valley = false
+		alpine_heights = false
+		snowy_boreal_forest = false
+		crimson_thicket = false
+		pine_meadows = false
+		boreal_forest = false
+		aspen_grove = false
+		windswept_cliffs = false
+		prairie = false
+		autumnal_coniferous_forest = false
+		redwood_peaks = false
+		baobab_fields = false
+		overgrown_spires = false
+		desert_shrubland = false
+		redwoods = false
+		willow_wetlands = false
+		blossoming_fields = false
+		verdant_sands = false
+		mangrove_marsh = false
+		crystal_lakes = false
+		boreal_plateau = false
+		snowy_redwoods = false
 
 		#Biome Ambience Settings
 		[Settings.Biomes."Biome Ambience"]
