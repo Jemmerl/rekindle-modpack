@@ -63,11 +63,11 @@
 	canopyCrash = true
 	#Damage dealt to the axe item when cutting a tree down. VANILLA: Standard 1 Damage. THICKNESS: By Branch/Trunk Thickness. VOLUME: By Tree Volume.
 	#Allowed Values: VANILLA, THICKNESS, VOLUME
-	axeDamageMode = "THICKNESS"
+	axeDamageMode = "VOLUME"
 	#If enabled then trees will fall over when harvested
 	enableFallingTrees = true
 	#If enabled then trees will harm living entities when falling
-	enableFallingTreeDamage = true
+	enableFallingTreeDamage = false
 	#Multiplier for damage incurred by a falling tree
 	#Range: 0.0 ~ 100.0
 	fallingTreeDamageMultiplier = 1.0
@@ -77,7 +77,7 @@
 	sloppyBreakDrops = false
 	#The minimum radius a branch must have before its able to be stripped. 8 = Full block size. Set to 0 to disable stripping trees
 	#Range: 0 ~ 24
-	minRadiusForStrip = 6
+	minRadiusForStrip = 0
 	#If enabled, stripping a branch will decrease its radius by one
 	enableStripRadiusReduction = true
 	#If enabled, an apple fruit can be bone mealed.
