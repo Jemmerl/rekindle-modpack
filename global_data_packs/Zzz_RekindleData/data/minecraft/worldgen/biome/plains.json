@@ -19,13 +19,7 @@
       "offset": 2
     }
   },
-  "starts": [
-    "minecraft:village_plains",
-    "minecraft:pillager_outpost",
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
-  ],
+  "starts": [],
   "spawners": {
     "monster": [
       {
@@ -130,7 +124,6 @@
   "spawn_costs": {},
   "carvers": {
     "air": [
-      "minecraft:cave",
       "minecraft:canyon"
     ]
   },
@@ -141,23 +134,11 @@
       "minecraft:lake_lava"
     ],
     [],
-    [
-      "minecraft:monster_room"
-    ],
+    [],
     [],
     [],
     [
-      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-      "minecraft:ore_lapis",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"

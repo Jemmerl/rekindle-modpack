@@ -513,7 +513,7 @@
 	"Overgrown Underground Biome" = true
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
-	Deepslate = true
+	Deepslate = false
 	"Monster Box" = false
 
 	[world.monster_box]

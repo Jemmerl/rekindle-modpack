@@ -17,7 +17,6 @@
   "surface_builder": "minecraft:swamp",
   "carvers": {
     "air": [
-      "minecraft:cave",
       "minecraft:canyon"
     ]
   },
@@ -29,23 +28,12 @@
     ],
     [],
     [
-      "minecraft:monster_room",
       "minecraft:fossil"
     ],
     [],
     [],
     [
-      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-      "minecraft:ore_lapis",
       "minecraft:disk_clay"
     ],
     [],
@@ -68,10 +56,7 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:ruined_portal_swamp"
-  ],
+  "starts": [],
   "spawners": {
     "monster": [
       {
