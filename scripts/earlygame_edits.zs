@@ -106,6 +106,11 @@ craftingTable.removeByName("minecraft:smoker");
 craftingTable.removeByName("quark:building/crafting/thatch_revert");
 craftingTable.removeByName("quark:building/crafting/thatch");
 
+// Remove plant fiber recipes
+craftingTable.removeByName("rankine:fiber_block");
+craftingTable.removeByName("rankine:rope");
+
+
 // Remove flint (basic) saw recipe, hide from JEI, and remove as a recipe ingredient
 craftingTable.removeByName("natural-progression:crafting/saws/basic_saw");
 JEI.hideItem(<item:natural-progression:basic_saw>);
@@ -240,7 +245,7 @@ for block in grassPlantTags.elements {
         LootConditionBuilder.create()
 			.add<MatchTool>(matches => {matches.matching(<item:natural-progression:bone_knife>);})
             .add<BlockStateProperty>(bsp => {bsp.withBlock(block);}),
-        CommonLootModifiers.clearing(CommonLootModifiers.add(<item:rekindleprimitive:straw_grass>))
+        CommonLootModifiers.clearing(CommonLootModifiers.add(<item:rankine:plant_fiber>))
     );
 }
 
