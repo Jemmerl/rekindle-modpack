@@ -214,6 +214,18 @@ craftingTable.removeByName("minecraft:stick");
 // craftingTable.removeByName("minecraft:bread");
 
 
+// ############################### ADD RECIPES ###############################
+craftingTable.addShapeless("cordage_from_plant_fiber", <item:rekindleprimitive:fiber_cordage>, [<item:natural-progression:bone_knife>.anyDamage().transformDamage(1),
+ <item:rankine:plant_fiber>, <item:rankine:plant_fiber>, <item:rankine:plant_fiber>]);
+ 
+ craftingTable.addShapeless("cordage_from_bark_strips", <item:rekindleprimitive:fiber_cordage>, [<item:natural-progression:bone_knife>.anyDamage().transformDamage(1),
+ <item:rekindleprimitive:bark_strips>, <item:rekindleprimitive:bark_strips>]);
+
+// Saplings to sticks
+craftingTable.addShapeless("sticks_from_saplings", <item:minecraft:stick>, [<item:natural-progression:bone_knife>.anyDamage().transformDamage(1),
+	<tag:items:saplings>]);
+
+
 // ############################### TWEAKS ###############################
 
 // Change tool durabilities

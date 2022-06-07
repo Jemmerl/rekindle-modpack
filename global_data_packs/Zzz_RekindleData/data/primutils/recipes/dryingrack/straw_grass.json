@@ -3,7 +3,7 @@
   "input": {
     "item": "rankine:plant_fiber"
   },
-  "duration": 6000,
+  "duration": 3000,
   "output": {
     "item": "rekindleprimitive:straw_grass"
   }
