@@ -38,7 +38,7 @@
 		#Denser river grass
 		moreGrassInRivers = true
 		fallenTrees = true
-		seaOats = true
+		seaOats = false
 		#Seagrass in lakes
 		moreSeagrass = true
 		barkMushrooms = true
@@ -60,7 +60,7 @@
 			twigs = true
 			# % chance of groundcover placement
 			#Range: 0 ~ 100
-			groundcoverChance = 50
+			groundcoverChance = 60
 			pinecones = true
 			fallenLeaves = true
 			charredBones = true
