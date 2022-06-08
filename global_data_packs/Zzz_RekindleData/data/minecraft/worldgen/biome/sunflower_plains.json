@@ -36,10 +36,9 @@
     ],
     [],
     [
-      "minecraft:patch_tall_grass_2",
-      "minecraft:patch_sunflower",
+      "minecraft:patch_dead_bush_badlands",
+	  "minecraft:patch_tall_grass_2",
       "minecraft:plain_vegetation",
-      "minecraft:flower_plain_decorated",
       "minecraft:patch_grass_plain",
       "minecraft:patch_sugar_cane",
       "minecraft:brown_mushroom_normal",

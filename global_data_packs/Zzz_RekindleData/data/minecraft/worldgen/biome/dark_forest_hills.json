@@ -37,9 +37,9 @@
     ],
     [],
     [
-      "minecraft:dark_forest_vegetation_red",
+      "minecraft:patch_dead_bush_2",
+	  "minecraft:dark_forest_vegetation_red",
       "minecraft:forest_flower_vegetation",
-      "minecraft:flower_default",
       "minecraft:patch_grass_forest",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",

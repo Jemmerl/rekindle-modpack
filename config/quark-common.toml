@@ -494,12 +494,12 @@
 	Speleothems = true
 	"Elder Prismarine Underground Biome" = false
 	"Blossom Trees" = false
-	"Sandstone Underground Biome" = true
+	"Sandstone Underground Biome" = false
 	"Glowshroom Underground Biome" = false
-	"Permafrost Underground Biome" = true
+	"Permafrost Underground Biome" = false
 	"Underground Clay" = false
 	"Slime Underground Biome" = false
-	"Fairy Rings" = true
+	"Fairy Rings" = false
 	"Chorus Vegetation" = false
 	Crevices = true
 	"Nether Obsidian Spikes" = true
@@ -510,7 +510,7 @@
 	"Brimstone Underground Biome" = false
 	"Cave Crystal Underground Biome" = false
 	"Spiral Spires" = false
-	"Overgrown Underground Biome" = true
+	"Overgrown Underground Biome" = false
 	"Cave Roots" = true
 	"Spider Nest Underground Biome" = true
 	Deepslate = false

@@ -36,8 +36,8 @@
     ],
     [],
     [
-      "minecraft:trees_water",
-      "minecraft:flower_default",
+      "minecraft:patch_dead_bush",
+	  "minecraft:trees_water",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",

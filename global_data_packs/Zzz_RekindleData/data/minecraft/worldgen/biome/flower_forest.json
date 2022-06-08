@@ -15,7 +15,6 @@
   "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
-      "minecraft:cave",
       "minecraft:canyon"
     ]
   },
@@ -26,32 +25,19 @@
       "minecraft:lake_lava"
     ],
     [],
-    [
-      "minecraft:monster_room"
-    ],
+    [],
     [],
     [],
     [
-      "minecraft:ore_dirt",
       "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-      "minecraft:ore_lapis",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel"
     ],
     [],
     [
-      "minecraft:forest_flower_vegetation_common",
+	  "minecraft:patch_dead_bush_badlands",
       "minecraft:forest_flower_trees",
-      "minecraft:flower_forest",
       "minecraft:patch_grass_badlands",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
@@ -64,11 +50,7 @@
       "minecraft:freeze_top_layer"
     ]
   ],
-  "starts": [
-    "minecraft:mineshaft",
-    "minecraft:stronghold",
-    "minecraft:ruined_portal"
-  ],
+  "starts": [],
   "spawners": {
     "monster": [
       {

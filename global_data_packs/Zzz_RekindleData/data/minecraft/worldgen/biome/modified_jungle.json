@@ -36,8 +36,8 @@
     ],
     [],
     [
-      "minecraft:trees_jungle",
-      "minecraft:flower_warm",
+      "minecraft:patch_dead_bush_2",
+	  "minecraft:trees_jungle",
       "minecraft:patch_grass_jungle",
       "minecraft:brown_mushroom_normal",
       "minecraft:red_mushroom_normal",
@@ -45,7 +45,6 @@
       "minecraft:patch_pumpkin",
       "minecraft:spring_water",
       "minecraft:spring_lava",
-      "minecraft:patch_melon",
       "minecraft:vines"
     ],
     [

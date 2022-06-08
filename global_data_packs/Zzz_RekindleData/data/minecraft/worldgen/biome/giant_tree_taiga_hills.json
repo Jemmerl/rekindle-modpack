@@ -38,9 +38,9 @@
     ],
     [],
     [
-      "minecraft:patch_large_fern",
+      "minecraft:patch_dead_bush",
+	  "minecraft:patch_large_fern",
       "minecraft:trees_giant",
-      "minecraft:flower_default",
       "minecraft:patch_grass_taiga",
       "minecraft:patch_dead_bush",
       "minecraft:brown_mushroom_giant",

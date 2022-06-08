@@ -204,6 +204,12 @@ craftingTable.removeByName("ceramics:unfired_clay_plate");
 furnace.removeByName("ceramics:clay_plate_smelting");
 <recipetype:thermal:furnace>.removeRecipe(<item:ceramics:clay_plate>);
 
+// Remove terracotta armor recipes
+craftingTable.removeByName("ceramics:clay_helmet");
+craftingTable.removeByName("ceramics:clay_chestplate");
+craftingTable.removeByName("ceramics:clay_leggings");
+craftingTable.removeByName("ceramics:clay_boots");
+
 // Remove seashells to prismarine
 craftingTable.removeByName("projectvibrantjourneys:seashells");
 
