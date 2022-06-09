@@ -15,7 +15,7 @@
             "tries": 4,
             "state_provider": {
               "state": {
-                "Name": "rekindlemod:dead_bush_ovr"
+                "Name": "minecraft:dead_bush"
               },
               "type": "minecraft:simple_state_provider"
             },
