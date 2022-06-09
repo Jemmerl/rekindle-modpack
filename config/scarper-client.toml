@@ -1,0 +1,8 @@
+#Should a hostile mob attack a player if it sees the player attack another creature
+hostileMobsTargetAttacker = false
+#Only creatures of the same species are affected, excludes hostile mobs if enabled
+onlySameSpecies = false
+#The range (in blocks) in which creatures react to a player attacking another creature
+#Range: 1 ~ 48
+effectRange = 32
+
