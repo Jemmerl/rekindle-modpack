@@ -1,0 +1,11 @@
+{
+  "inventory": {
+    "0:0": "{id:\"rekindlemod:stun_baton\",Count:1b,tag:{Damage:0}}",
+    "1:1": "{id:\"rekindlemod:broken_mekasuit_pants\",Count:1b,tag:{Damage:0}}",
+    "1:2": "{id:\"rekindlemod:broken_mekasuit_bodyarmor\",Count:1b,tag:{Damage:0}}",
+    "0:8": "{id:\"rekindlemod:food_bar\",Count:10b}",
+    "1:0": "{id:\"rekindlemod:broken_mekasuit_boots\",Count:1b,tag:{Damage:0}}",
+    "1:3": "{id:\"rekindlemod:broken_mekasuit_helmet\",Count:1b,tag:{Damage:0}}"
+  },
+  "wipeBlacklist": []
+}
