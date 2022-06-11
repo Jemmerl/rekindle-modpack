@@ -20,7 +20,7 @@
 	#Range: 1 ~ 100
 	flintKnappingChance = 50
 	#Setting this to true prevents the ability to use stone tools, though you can still craft them for compatibility.
-	removeStoneToolFunctionality = true
+	removeStoneToolFunctionality = false
 	#Setting this to true will allow you to replace pebbles like tall grass (more convenient for building, but loses the block forever
 	arePebblesReplaceable = false
 	#A string of dimensions in which pebbles should spawn. See the defaults for the format.
@@ -39,5 +39,5 @@
 	#Setting this to true will make ground blocks (e.g. sand, dirt, gravel) harder to break without the correct tool.
 	makeGroundBlocksHarder = true
 	#Setting this to true prevents the ability to use wooden tools, though you can still craft them for compatibility.
-	removeWoodenToolFunctionality = true
+	removeWoodenToolFunctionality = false
 
