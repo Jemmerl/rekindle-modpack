@@ -17,8 +17,8 @@ modifyPathFinding = true
 playerOnly = false
 
 [sounds]
-	#Only players can make noises
-	playerOnly = false
 	#Range: 0.0 ~ 10.0
 	volume = 1.0
+	#Only players can make noises
+	playerOnly = false
 

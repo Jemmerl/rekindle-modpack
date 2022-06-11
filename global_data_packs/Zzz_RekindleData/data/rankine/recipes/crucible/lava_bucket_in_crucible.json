@@ -1,0 +1,47 @@
+{
+  "type": "rankine:crucible",
+  "result": {
+    "item": "minecraft:lava_bucket"
+  },
+  "secondary": {
+    "item": "rankine:slag"
+  },
+  "cookTime": 500,
+  "required": [true,true,false,false],
+  "total": 8,
+  "input1": {
+    "item": "minecraft:bucket",
+    "countMod": 1,
+    "group": 0
+  },
+  "input2": {
+    "item": "minecraft:iron_ore",
+    "countMod": 1,
+    "group": 1
+  },
+  "input3": {
+    "tag": "forge:feldspar"
+  },
+  "input4": {
+    "item": "rankine:alumina",
+    "countMod": 1
+  },
+  "input5": {
+    "item": "rankine:magnesia",
+    "countMod": 1
+  },
+  "input6": {
+    "item": "rankine:quicklime",
+    "countMod": 1,
+    "cookMod": -600
+  },
+  "input7": {
+    "item": "rankine:petalite",
+    "countMod": 3
+  },
+  "input8": {
+    "item": "rankine:sodium_carbonate",
+    "countMod": 2,
+    "cookMod": -600
+  }
+}
