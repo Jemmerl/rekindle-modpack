@@ -1,15 +1,64 @@
 
-["Stone Generation"]
-	#Sets average plate area in chunks; Recommended Default is 64
-	#Range: 16 ~ 2048
-	"Fault Size" = 128
-	#Sets average stone region area in chunks; Recommended Default is 128
-	#Range: 16 ~ 2048
-	"Region Size" = 512
-	#Sets general difference between regions; Recommended Default is 0.50
-	#Range: 0.0 ~ 1.0
-	"Regional Variation" = 0.5
-	#Sets the degree of range for fault shift; Recommended Default is 0.20
-	#Range: 0.0 ~ 1.0
-	"Fault Variation" = 0.2
+["General Config"]
+	#Sets the overall hardness scaling factor of stone from y = 50 to y = 0; Recommended Default is 3
+	#Range: 1 ~ 10
+	"Hardness Depth Factor" = 3
+
+["Layer Generation"]
+
+	["Layer Generation"."Region Config"]
+		#Sets average stone region area in chunks; Recommended Default is 128
+		#Range: 16 ~ 2048
+		"Region Size" = 512
+		#Sets general difference between regions; Recommended Default is 0.50
+		#Range: 0.0 ~ 1.0
+		"Regional Variation" = 0.5
+
+	["Layer Generation"."Fault Config"]
+		#Sets average plate area in chunks; Recommended Default is 64
+		#Range: 16 ~ 2048
+		"Fault Size" = 128
+		#Sets the degree of range for fault shift; Recommended Default is 0.20
+		#Range: 0.0 ~ 1.0
+		"Fault Variation" = 0.2
+
+	#Maximum config values must be greater than or equal to the minimum values, and vice versa.
+	#Else, they will be dramatically corrected, resulting in potentially unexpected results
+	["Layer Generation"."Strata Config"]
+
+		["Layer Generation"."Strata Config".Thickness]
+			#Define the the minimum possible degree of strata thickness; Recommended Default is 10
+			#Range: 0 ~ 100
+			"Minimum Thickness" = 10
+			#Define the the maximum possible degree of strata thickness; Recommended Default is 40
+			#Range: 0 ~ 100
+			"Maximum Thickness" = 40
+
+		["Layer Generation"."Strata Config".Warp]
+			#Define the the minimum possible degree of strata warp; Recommended Default is 10
+			#Range: 0 ~ 100
+			"Minimum Warp" = 10
+			#Define the the maximum possible degree of strata warp; Recommended Default is 75
+			#Range: 0 ~ 100
+			"Maximum Warp" = 75
+
+		["Layer Generation"."Strata Config".Tilt]
+			#Define the the minimum possible degree of strata tilt; Recommended Default is 20
+			#Range: 0 ~ 100
+			"Minimum Tilt" = 20
+			#Define the the maximum possible degree of strata tilt; Recommended Default is 100
+			#Range: 0 ~ 100
+			"Maximum Tilt" = 100
+
+["Stone Property Config"]
+	#Set the multiplier for relative stone hardnesses; Recommended Default is 20
+	#Range: 1 ~ 50
+	"Hardness Multiplier" = 20
+	#Set the multiplier for relative stone resistances; Recommended Default is 6
+	#Range: 1 ~ 30
+	"Resistance Multiplier" = 6
+
+["Debug Mode"]
+	#Toggle debug mode - Caution: will slow down the game!
+	Debug = false
 
